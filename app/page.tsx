@@ -1,4 +1,6 @@
 import Comprehensive from "@/components/Comprehensive";
+import Footer from "@/components/Footer";
+import GetInTouch from "@/components/GetInTouch";
 import Hero from "@/components/Hero";
 import HowWeWork from "@/components/HowWeWork";
 import OurCoreValue from "@/components/OurCoreValue";
@@ -16,7 +18,8 @@ export default function Home() {
       <Portfolio />
       <HowWeWork />
       <Solutions />
-      <div className="h-[200px]"></div>
+      <GetInTouch />
+      <Footer />
     </div>
   );
 }

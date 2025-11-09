@@ -4,7 +4,6 @@ import downIcon from "@/public/icons/down-arrow.svg";
 const Hero = () => {
   return (
     <div className="w-full main-container ">
-      {" "}
       <div className="relative w-full flex flex-col items-start justify-between px-[50px] pt-[50px] rounded-[30px] aspect-1341/748 bg-linear-to-b from-[#ffffff] via-[#8e6fd6] to-[#317ddc]">
         <div className="w-full flex items-center justify-between">
           <Image src={logo} width={228} height={76} alt="logo" />
